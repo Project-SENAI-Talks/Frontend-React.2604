@@ -1,8 +1,8 @@
-import { Home, Login } from "@/components/pages/controler" 
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <Home/>
+    <Outlet />
   )
 }
  
